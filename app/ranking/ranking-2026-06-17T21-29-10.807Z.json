@@ -1,0 +1,27 @@
+[
+  {
+    "keyword": "hospital",
+    "clicks": 16,
+    "impressions": 37,
+    "ctr": 0.43243243243243246,
+    "gscAveragePosition": 12.027027027027026,
+    "serpPosition": null,
+    "found": false
+  },
+  {
+    "keyword": "hospital raul hernandez",
+    "error": true
+  },
+  {
+    "keyword": "hospital hr raúl hernández",
+    "error": true
+  },
+  {
+    "keyword": "hospital raul hernandez leon",
+    "error": true
+  },
+  {
+    "keyword": "hospital hernandez",
+    "error": true
+  }
+]
