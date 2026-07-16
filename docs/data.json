@@ -1,0 +1,1021 @@
+{
+  "generatedAt": "2026-07-16T18:26:23.974Z",
+  "keywords": [
+    "hospital",
+    "hospital hernandez",
+    "hospital hr raúl hernández",
+    "hospital raul hernandez",
+    "hospital raul hernandez leon"
+  ],
+  "series": {
+    "hospital": [
+      {
+        "date": "2026-05-19T00:23:10.991Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-02T21:33:22.261Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-02T21:37:17.611Z",
+        "position": 91,
+        "found": true,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-02T21:43:10.299Z",
+        "position": 91,
+        "found": true,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-03T04:49:32.160Z",
+        "position": 91,
+        "found": true,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-03T14:54:47.897Z",
+        "position": 53,
+        "found": true,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-03T17:27:16.639Z",
+        "position": 92,
+        "found": true,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-04T17:21:20.880Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-04T19:43:06.798Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-05T15:29:34.428Z",
+        "position": 96,
+        "found": true,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-07T20:18:56.545Z",
+        "position": 95,
+        "found": true,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-08T22:38:18.973Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-08T22:39:15.664Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-08T22:41:26.480Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-09T22:53:00.425Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-09T22:56:46.302Z",
+        "position": 85,
+        "found": true,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-14T02:46:22.482Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-14T05:56:18.426Z",
+        "position": 22,
+        "found": true,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-14T06:00:46.185Z",
+        "position": 25,
+        "found": true,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-17T21:29:10.807Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-17T21:31:38.918Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-17T21:32:37.663Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-17T21:34:04.145Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-17T21:36:13.808Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-06-18T00:43:47.242Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-07-05T18:44:48.823Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-07-05T18:53:25.870Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-07-09T18:21:39.997Z",
+        "position": null,
+        "found": false,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-07-13T05:33:53.065Z",
+        "position": 21,
+        "found": true,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
+      }
+    ],
+    "hospital raul hernandez": [
+      {
+        "date": "2026-05-19T00:23:10.991Z",
+        "position": null,
+        "found": false,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-02T21:37:17.611Z",
+        "position": 1,
+        "found": true,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-02T21:43:10.299Z",
+        "position": 1,
+        "found": true,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-03T04:49:32.160Z",
+        "position": 1,
+        "found": true,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-03T14:54:47.897Z",
+        "position": 1,
+        "found": true,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-03T17:27:16.639Z",
+        "position": 1,
+        "found": true,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-04T17:21:20.880Z",
+        "position": 1,
+        "found": true,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-04T19:43:06.798Z",
+        "position": null,
+        "found": false,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-05T15:29:34.428Z",
+        "position": 1,
+        "found": true,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-07T20:18:56.545Z",
+        "position": 1,
+        "found": true,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-08T22:39:15.664Z",
+        "position": null,
+        "found": false,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-09T22:56:46.302Z",
+        "position": 1,
+        "found": true,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-14T02:46:22.482Z",
+        "position": 1,
+        "found": true,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-14T05:56:18.426Z",
+        "position": 1,
+        "found": true,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-14T06:00:46.185Z",
+        "position": 1,
+        "found": true,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-17T21:31:38.918Z",
+        "position": null,
+        "found": false,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-17T21:34:04.145Z",
+        "position": null,
+        "found": false,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-17T21:36:13.808Z",
+        "position": null,
+        "found": false,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-06-18T00:43:47.242Z",
+        "position": null,
+        "found": false,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-07-05T18:44:48.823Z",
+        "position": 1,
+        "found": true,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-07-05T18:53:25.870Z",
+        "position": 1,
+        "found": true,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-07-09T18:21:39.997Z",
+        "position": 1,
+        "found": true,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-07-13T05:33:53.065Z",
+        "position": 1,
+        "found": true,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
+      }
+    ],
+    "hospital hr raúl hernández": [
+      {
+        "date": "2026-05-19T00:23:10.991Z",
+        "position": null,
+        "found": false,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-02T21:37:17.611Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-02T21:43:10.299Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-03T04:49:32.160Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-03T14:54:47.897Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-03T17:27:16.639Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-04T17:21:20.880Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-04T19:43:06.798Z",
+        "position": null,
+        "found": false,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-05T15:29:34.428Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-07T20:18:56.545Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-09T22:56:46.302Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-14T02:46:22.482Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-14T05:56:18.426Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-14T06:00:46.185Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-17T21:31:38.918Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-17T21:36:13.808Z",
+        "position": null,
+        "found": false,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-18T00:43:47.242Z",
+        "position": null,
+        "found": false,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-07-05T18:44:48.823Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-07-05T18:53:25.870Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-07-09T18:21:39.997Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-07-13T05:33:53.065Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      }
+    ],
+    "hospital raul hernandez leon": [
+      {
+        "date": "2026-06-02T21:37:17.611Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-02T21:43:10.299Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-03T04:49:32.160Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-03T14:54:47.897Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-03T17:27:16.639Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-04T17:21:20.880Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-04T19:43:06.798Z",
+        "position": null,
+        "found": false,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-05T15:29:34.428Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-07T20:18:56.545Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-09T22:56:46.302Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-14T02:46:22.482Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-14T05:56:18.426Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-14T06:00:46.185Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-17T21:31:38.918Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-17T21:34:04.145Z",
+        "position": null,
+        "found": false,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-17T21:36:13.808Z",
+        "position": null,
+        "found": false,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-18T00:43:47.242Z",
+        "position": null,
+        "found": false,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-07-05T18:44:48.823Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-07-05T18:53:25.870Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-07-09T18:21:39.997Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-07-13T05:33:53.065Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
+      }
+    ],
+    "hospital hernandez": [
+      {
+        "date": "2026-06-02T21:37:17.611Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-02T21:43:10.299Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-03T04:49:32.160Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-03T14:54:47.897Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-03T17:27:16.639Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-04T17:21:20.880Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-05T15:29:34.428Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-07T20:18:56.545Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-09T22:56:46.302Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-14T02:46:22.482Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-14T05:56:18.426Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-14T06:00:46.185Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-06-17T21:31:38.918Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-07-05T18:44:48.823Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-07-05T18:53:25.870Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-07-09T18:21:39.997Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-07-13T05:33:53.065Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      }
+    ]
+  }
+}

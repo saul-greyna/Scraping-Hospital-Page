@@ -11,6 +11,10 @@ const {
     saveRanking
 } = require('../app/ranking/saveRanking');
 
+const {
+    buildReport
+} = require('./buildReport');
+
 async function run() {
 
     const targetUrl =
@@ -97,6 +101,8 @@ async function run() {
     }
 
     await saveRanking(results);
+
+    buildReport();
 }
 
 run();

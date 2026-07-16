@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ranking SERP · Hospital Dr. Raúl Hernández</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+<style>
+    :root {
+        --bg: #0f1115;
+        --panel: #171a21;
+        --border: #262b36;
+        --text: #e6e8ee;
+        --muted: #8b93a7;
+        --accent: #4f8cff;
+    }
+    * { box-sizing: border-box; }
+    body {
+        margin: 0;
+        font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+    }
+    header {
+        padding: 24px 28px 12px;
+        border-bottom: 1px solid var(--border);
+    }
+    header h1 {
+        margin: 0 0 4px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    header p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 13px;
+    }
+    #controls {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        padding: 16px 28px;
+        border-bottom: 1px solid var(--border);
+    }
+    #controls button {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        color: var(--text);
+        padding: 6px 12px;
+        border-radius: 6px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    #controls button:hover {
+        border-color: var(--accent);
+    }
+    main {
+        padding: 24px 28px 60px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .chart-card {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 18px;
+    }
+    #chartWrap {
+        position: relative;
+        height: 520px;
+    }
+    #status {
+        color: var(--muted);
+        font-size: 13px;
+        padding: 40px 28px;
+    }
+    #legend-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 16px;
+        margin-top: 14px;
+        font-size: 12px;
+        color: var(--muted);
+    }
+    .legend-item {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        cursor: pointer;
+        user-select: none;
+    }
+    .legend-item.hidden { opacity: 0.35; }
+    .swatch {
+        width: 10px;
+        height: 10px;
+        border-radius: 2px;
+        flex-shrink: 0;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Posición real en SERP de Google</h1>
+    <p>Hospital Dr. Raúl Hernández · seguimiento histórico por keyword</p>
+</header>
+
+<div id="controls"></div>
+
+<main>
+    <div class="chart-card">
+        <div id="chartWrap">
+            <canvas id="rankChart"></canvas>
+        </div>
+        <div id="legend-list"></div>
+    </div>
+</main>
+
+<div id="status">Cargando datos...</div>
+
+<script>
+const PALETTE = [
+    '#4f8cff', '#ff6b6b', '#51cf66', '#ffd43b', '#cc5de8',
+    '#22b8cf', '#ff922b', '#845ef7', '#20c997', '#f06595',
+    '#94d82d', '#748ffc'
+];
+
+let chart = null;
+let allData = null;
+
+async function loadData() {
+    try {
+        const res = await fetch('./data.json?_=' + Date.now());
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        allData = await res.json();
+        document.getElementById('status').style.display = 'none';
+        buildControls();
+        renderChart(allData.keywords);
+    } catch (err) {
+        document.getElementById('status').textContent =
+            'No se pudo cargar data.json: ' + err.message +
+            '. Ejecuta "npm run report" en el proyecto y vuelve a intentarlo.';
+    }
+}
+
+function buildControls() {
+    const controls = document.getElementById('controls');
+    controls.innerHTML = '';
+
+    const btnAll = document.createElement('button');
+    btnAll.textContent = 'Mostrar todas';
+    btnAll.onclick = () => renderChart(allData.keywords);
+    controls.appendChild(btnAll);
+
+    const btnTop = document.createElement('button');
+    btnTop.textContent = 'Solo top 5 (última medición)';
+    btnTop.onclick = () => renderChart(topKeywords(5));
+    controls.appendChild(btnTop);
+}
+
+function topKeywords(n) {
+    return [...allData.keywords]
+        .map(k => {
+            const serie = allData.series[k];
+            const last = [...serie].reverse().find(p => p.position !== null);
+            return { k, pos: last ? last.position : Infinity };
+        })
+        .sort((a, b) => a.pos - b.pos)
+        .slice(0, n)
+        .map(x => x.k);
+}
+
+function renderChart(keywords) {
+    const datasets = keywords.map((keyword, i) => {
+        const color = PALETTE[i % PALETTE.length];
+        const points = allData.series[keyword]
+            .filter(p => p.position !== null)
+            .map(p => ({ x: p.date, y: p.position }));
+
+        return {
+            label: keyword,
+            data: points,
+            borderColor: color,
+            backgroundColor: color,
+            pointRadius: 3,
+            pointHoverRadius: 5,
+            tension: 0.25,
+            spanGaps: true,
+        };
+    });
+
+    const ctx = document.getElementById('rankChart').getContext('2d');
+
+    if (chart) chart.destroy();
+
+    chart = new Chart(ctx, {
+        type: 'line',
+        data: { datasets },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            interaction: { mode: 'nearest', intersect: false },
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        label: (item) =>
+                            `${item.dataset.label}: posición ${item.parsed.y}`
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    type: 'time',
+                    time: { unit: 'day', tooltipFormat: 'dd MMM yyyy HH:mm' },
+                    grid: { color: '#262b36' },
+                    ticks: { color: '#8b93a7' }
+                },
+                y: {
+                    reverse: true,
+                    min: 1,
+                    title: { display: true, text: 'Posición en SERP', color: '#8b93a7' },
+                    grid: { color: '#262b36' },
+                    ticks: { color: '#8b93a7', stepSize: 1 }
+                }
+            }
+        }
+    });
+
+    renderCustomLegend(datasets);
+}
+
+function renderCustomLegend(datasets) {
+    const el = document.getElementById('legend-list');
+    el.innerHTML = '';
+
+    datasets.forEach((ds, i) => {
+        const item = document.createElement('div');
+        item.className = 'legend-item';
+        item.innerHTML =
+            `<span class="swatch" style="background:${ds.borderColor}"></span>${ds.label}`;
+
+        item.onclick = () => {
+            const meta = chart.getDatasetMeta(i);
+            meta.hidden = meta.hidden === null ? !chart.data.datasets[i].hidden : null;
+            item.classList.toggle('hidden');
+            chart.update();
+        };
+
+        el.appendChild(item);
+    });
+}
+
+loadData();
+</script>
+
+</body>
+</html>
