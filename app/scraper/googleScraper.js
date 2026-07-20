@@ -3,7 +3,10 @@ const { chromium } = require('playwright');
 async function createBrowser() {
     const browser = await chromium.launch({
         headless: false,
-        args: ['--disable-blink-features=AutomationControlled']
+        args: [
+            '--disable-blink-features=AutomationControlled',
+            '--incognito',
+        ]
     });
 
     const context = await browser.newContext({
@@ -50,10 +53,24 @@ async function humanBehavior(page) {
     await page.waitForTimeout(1500);
 }
 
+async function captchaDelay() {
+
+    const delay =
+        Math.floor(Math.random() * 30000)
+        + 90000; // entre 1:30 y 2:00 min
+
+    console.log(
+        `Primera búsqueda: esperando ${Math.round(delay / 1000)}s por si aparece el captcha...`
+    );
+
+    return delay;
+}
+
 async function searchKeyword(
     page,
     keyword,
-    targetUrl
+    targetUrl,
+    isFirstSearch = false
 ) {
 
     console.log(`Buscando: ${keyword}`);
@@ -79,6 +96,12 @@ async function searchKeyword(
     await page.waitForLoadState(
         'domcontentloaded'
     );
+
+    if (isFirstSearch) {
+        await page.waitForTimeout(
+            await captchaDelay()
+        );
+    }
 
     await humanBehavior(page);
 

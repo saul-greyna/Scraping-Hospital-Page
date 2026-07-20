@@ -33,15 +33,18 @@ async function run() {
 
     const results = [];
 
-    for (const row of queries) {
+    for (let i = 0; i < queries.length; i++) {
+        const row = queries[i];
         const keyword = row.keys[0];
+        const isFirstSearch = i === 0;
 
         try {
             const ranking =
                 await searchKeyword(
                     page,
                     keyword,
-                    targetUrl
+                    targetUrl,
+                    isFirstSearch
                 );
 
             results.push({
