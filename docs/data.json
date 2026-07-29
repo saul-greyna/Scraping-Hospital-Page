@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T19:14:41.661Z",
+  "generatedAt": "2026-07-29T17:32:42.257Z",
   "keywords": [
     "hospital",
     "hospital hernandez",
@@ -359,6 +359,15 @@
         "impressions": 37,
         "ctr": 0.43243243243243246,
         "gscAveragePosition": 12.027027027027026
+      },
+      {
+        "date": "2026-07-29T17:32:42.215Z",
+        "position": 11,
+        "found": true,
+        "clicks": 16,
+        "impressions": 37,
+        "ctr": 0.43243243243243246,
+        "gscAveragePosition": 12.027027027027026
       }
     ],
     "hospital raul hernandez": [
@@ -649,6 +658,15 @@
         "impressions": 109,
         "ctr": 0.10091743119266056,
         "gscAveragePosition": 1.1376146788990826
+      },
+      {
+        "date": "2026-07-29T17:32:42.215Z",
+        "position": 1,
+        "found": true,
+        "clicks": 11,
+        "impressions": 109,
+        "ctr": 0.10091743119266056,
+        "gscAveragePosition": 1.1376146788990826
       }
     ],
     "hospital hr raúl hernández": [
@@ -915,6 +933,15 @@
       },
       {
         "date": "2026-07-28T19:14:41.622Z",
+        "position": 1,
+        "found": true,
+        "clicks": 6,
+        "impressions": 75,
+        "ctr": 0.08,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-07-29T17:32:42.215Z",
         "position": 1,
         "found": true,
         "clicks": 6,
@@ -1193,6 +1220,15 @@
         "impressions": 10,
         "ctr": 0.5,
         "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-07-29T17:32:42.215Z",
+        "position": 1,
+        "found": true,
+        "clicks": 5,
+        "impressions": 10,
+        "ctr": 0.5,
+        "gscAveragePosition": 1
       }
     ],
     "hospital hernandez": [
@@ -1423,6 +1459,15 @@
       },
       {
         "date": "2026-07-28T19:14:41.622Z",
+        "position": 1,
+        "found": true,
+        "clicks": 3,
+        "impressions": 5,
+        "ctr": 0.6,
+        "gscAveragePosition": 1
+      },
+      {
+        "date": "2026-07-29T17:32:42.215Z",
         "position": 1,
         "found": true,
         "clicks": 3,
